@@ -31,7 +31,6 @@ def scanBLE(timeout=5):
 	print("Scanning...")
 	devices = scanner.scan(timeout)
 	for dev in devices:
-		#print("Device %s, RSSI=%d dB" % (dev.addr, dev.rssi))
 		for chara in dev.getScanData():
 			if chara[2].startswith('USR-BLE'):
 				print("Device %s(RSSI=%d db) is %s" % (dev.addr, dev.rssi, chara[2]))
