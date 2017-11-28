@@ -15,8 +15,8 @@ sudo pip3 install bluepy
 
 ```scanBLE()``` for searching USR-BLE devices(in default setting)
 
-```uart("aa:bb:cc:dd:ee:ff")``` to initialize
+```Uart("aa:bb:cc:dd:ee:ff")``` to initialize
 
-```uart.read(timeout)``` to read
+```Uart.read(timeout)``` to read
 
-```uart.write()``` to write
+```Uart.write()``` to write
