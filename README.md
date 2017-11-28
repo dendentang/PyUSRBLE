@@ -11,7 +11,7 @@ sudo pip3 install bluepy
 ```
 
    ### Usage
-```from PyUSRBLE import *```
+```from pyusrble import *```
 
 ```scanBLE()``` for searching USR-BLE devices(in default setting)
 
